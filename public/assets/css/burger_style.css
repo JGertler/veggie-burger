@@ -1,0 +1,13 @@
+body{
+	font-family: arial;
+	background-image: url(/assets/img/veggiePic.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #d6f4d6;
+}
+h1 {
+	font-family: 'Ultra', serif;
+}
+p {
+	color: red;
+}
