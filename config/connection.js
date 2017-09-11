@@ -15,7 +15,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     user: "root",
     password: "",
-    database: 'burgers_db'
+    database: 'xxtywv24npqyqs64'
   });
 };
 // // Connect to the database
