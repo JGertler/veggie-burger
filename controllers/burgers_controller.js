@@ -26,7 +26,7 @@ router.post('/burgers/create', function(req, res){
 })
 
 router.put('/burgers/spit', function (req,res){
-	burger.spit(req.body.id, function(result){
+	burger.spit(req.body.burger_name, function(result){
 		res.redirect('/');
 	});
 })

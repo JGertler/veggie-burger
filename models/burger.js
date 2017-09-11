@@ -16,8 +16,8 @@ var burger = {
   create: function(name, callback) {
     orm.create('burgers', name, callback);
   },
-  spit: function(id, callback) {
-    orm.spit('burgers', id, callback);
+  spit: function(burger_name, callback) {
+    orm.spit('burgers', burger_name, callback);
   }
 }
 
