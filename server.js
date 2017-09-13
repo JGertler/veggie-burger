@@ -5,7 +5,7 @@ var method_override = require('method-override');
 var exphbs =require ('express-handlebars');
 var app = express();
 //this way heroku can listen to the port dynamically, or we can still listen to port 3000 locally
-var PORT= process.evn.PORT || 3000;
+var PORT= process.env.PORT || 3000;
 
 
 app.use(express.static(__dirname + '/public'));
